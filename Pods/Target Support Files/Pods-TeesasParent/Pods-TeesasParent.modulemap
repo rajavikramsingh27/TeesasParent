@@ -1,0 +1,6 @@
+framework module Pods_TeesasParent {
+  umbrella header "Pods-TeesasParent-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,11 @@
+ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES
+FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/AnimatedCollectionViewLayout" "${PODS_CONFIGURATION_BUILD_DIR}/CSPieChart" "${PODS_CONFIGURATION_BUILD_DIR}/HCLineChartView" "${PODS_CONFIGURATION_BUILD_DIR}/IQKeyboardManager" "${PODS_CONFIGURATION_BUILD_DIR}/KDCircularProgress" "${PODS_CONFIGURATION_BUILD_DIR}/KUIPopOver" "${PODS_CONFIGURATION_BUILD_DIR}/PanModal" "${PODS_CONFIGURATION_BUILD_DIR}/SVPinView" "${PODS_CONFIGURATION_BUILD_DIR}/UICircularProgressRing"
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/AnimatedCollectionViewLayout/AnimatedCollectionViewLayout.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/CSPieChart/CSPieChart.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/HCLineChartView/HCLineChartView.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/IQKeyboardManager/IQKeyboardManager.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/KDCircularProgress/KDCircularProgress.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/KUIPopOver/KUIPopOver.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/PanModal/PanModal.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/SVPinView/SVPinView.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/UICircularProgressRing/UICircularProgressRing.framework/Headers"
+LD_RUNPATH_SEARCH_PATHS = $(inherited) '@executable_path/Frameworks' '@loader_path/Frameworks'
+OTHER_LDFLAGS = $(inherited) -framework "AnimatedCollectionViewLayout" -framework "CSPieChart" -framework "CoreGraphics" -framework "Foundation" -framework "HCLineChartView" -framework "IQKeyboardManager" -framework "KDCircularProgress" -framework "KUIPopOver" -framework "PanModal" -framework "QuartzCore" -framework "SVPinView" -framework "UICircularProgressRing" -framework "UIKit"
+OTHER_SWIFT_FLAGS = $(inherited) -D COCOAPODS
+PODS_BUILD_DIR = ${BUILD_DIR}
+PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
+PODS_PODFILE_DIR_PATH = ${SRCROOT}/.
+PODS_ROOT = ${SRCROOT}/Pods
